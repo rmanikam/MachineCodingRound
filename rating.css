@@ -1,0 +1,34 @@
+.yellow{
+    color : yellow;
+    }
+.outer_container
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starContainer
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.countContainer
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.star
+{
+    padding:5px;
+    color:grey;
+    cursor: pointer;
+}
+.currValue
+{
+    color: yellow
+}
