@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+textarea {
+  width: 45%;
+  height: 80vh; 
+  /* Sets the height to 80% of the viewport height (vh stands for viewport height,
+   where 1vh equals 1% of the viewport’s height). This makes the textarea adapt to the screen size. */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.preview {
+  width: 45%;
+  height: 80vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-y: auto; 
+  /* overflow-y: auto;: This allows vertical scrolling (the y axis) 
+  if the content inside the .preview element overflows beyond the visible area. If the content fits,
+   no scroll bar will be visible, but if it exceeds the height, the scroll bar will appear to allow the
+    user to navigate through the content. */
+}
